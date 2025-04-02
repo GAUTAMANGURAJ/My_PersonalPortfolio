@@ -309,31 +309,10 @@ nav ul li a {
 *{
   font-family: 'Poppins', Franklin Gothic Medium;
 }
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background-color: #f4f4f4;
-  color: #333;
-  transition: background 0.3s ease, color 0.3s ease;
-}
+
 
 /* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
-  background: #1f1f1f;
-  color: white;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
+
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
