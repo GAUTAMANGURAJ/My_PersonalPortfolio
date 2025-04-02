@@ -36,15 +36,15 @@ function eraseEffect() {
 }
 
 typeEffect();
-
-
-// Dark Mode Toggle
-function more(name,fullDes,shortDes){
-
-  const themeToggle = document.getElementById("theme-toggle");
+const themeToggle = document.getElementById("theme-toggle");
 themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
+
+// Dark Mode Toggle
+
+
+function more(name,fullDes,shortDes){  
 document.getElementById(name).addEventListener("click", function() {
   var fullDescription = document.getElementById(fullDes);
   var shortDescription = document.getElementById(shortDes);
