@@ -17,8 +17,7 @@ body {
 }
 
 /* Header */
-/* Header Styling */
-/* Header Styling */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -184,8 +183,11 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+  transition: transform 0.3s ease-in-out; 
 }
-
+.btn:hover{
+  transform: scale(1.2);
+}
 /* Project Section */
 .project-container {
   display: flex;
@@ -219,7 +221,10 @@ nav ul li a {
   margin-bottom: 15px;
 }
 
-#more-button,#more-button2,#more-button3 {
+#more-button,
+#more-button2,
+#more-button3,
+#more-button4{
   background-color: #2575fc;
   color: white;
   border: none;
@@ -228,11 +233,16 @@ nav ul li a {
   cursor: pointer;
   border-radius: 5px;
   margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
-#more-button,#more-button2,#more-button3:hover {
+#more-button:hover,
+#more-button2:hover,
+#more-button3:hover,
+#more-button4:hover {
   background-color: #1e5bb8;
 }
+
 
 /* Hover Effect - Lifts and adds more shadow */
 .project:hover {
@@ -358,6 +368,8 @@ nav ul li a {
 
 .resume-btn:hover {
   background: #0056b3;
+  transform: scale(1.1);
+  color:  #faca0a;
 }
 *{
   font-family: 'Poppins', Franklin Gothic Medium;
@@ -419,4 +431,7 @@ nav ul li a {
   #contact {
     padding: 30px 10px;
   }
+}
+#links:hover{
+ color:#FFC107;
 }
